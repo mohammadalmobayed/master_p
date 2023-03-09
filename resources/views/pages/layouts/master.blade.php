@@ -38,7 +38,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="">
+          <a class="nav-link" href="{{route('deanship.index')}}">
             <i class="fa-solid fa-user-tie menu-icon"></i>
             <span class="menu-title">Deanship</span>
           </a>
@@ -50,13 +50,13 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="">
+          <a class="nav-link" href="{{route('profile.index')}}">
             <i class="fa-solid fa-address-card menu-icon"></i>
             <span class="menu-title">Profile</span>
           </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{route('profile.destroy')}}">
+            <a class="nav-link" href="">
               <i class="fa-solid fa-arrow-right-from-bracket menu-icon"></i>
               <span class="menu-title">Logout</span>
             </a>

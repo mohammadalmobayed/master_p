@@ -1,94 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('pages.layouts.master')
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>AUT Housing</title>
-  <!-- base:css -->
-  <link rel="stylesheet" href="../../vendors/mdi/css/materialdesignicons.min.css">
-  <link rel="stylesheet" href="../../vendors/css/vendor.bundle.base.css">
-  <!-- endinject -->
-  <!-- plugin css for this page -->
-  <!-- End plugin css for this page -->
-  <script src="https://kit.fontawesome.com/6ab0b50a1e.js" crossorigin="anonymous"></script>
-  <!-- inject:css -->
-  <link rel="stylesheet" href="{{asset('css/style.css')}}">
-  <!-- endinject -->
-  <link rel="shortcut icon" href="{{asset('images/auth/aut_logo.png')}}" />
-</head>
+@include('pages.layouts.head')
+@section('user')
+Mohammad
+@endsection
+
+
+
+    @section('content')
 <body>
-  <div class="container-scroller d-flex">
-    <!-- partial:./partials/_sidebar.html -->
-    <nav class="sidebar sidebar-offcanvas" id="sidebar">
-
-      <div class="sidebarContainer">
-      <ul class="nav">
-        
-        <li class="nav-item">
-          <a class="nav-link" href="../../home.html">
-            <i class="fa-solid fa-table menu-icon"></i>
-            <span class="menu-title">Dashboard</span>
-            <div class="badge badge-info badge-pill">2</div>
-          </a>
-        </li>
-       
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
-            <i class="fa-solid fa-house menu-icon"></i>
-            <span class="menu-title">Housing</span>
-            <i class="menu-arrow"></i>
-          </a>
-          <div class="collapse" id="ui-basic">
-            <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/housing/housingA.html">Housing A</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/housing/housingB.html">Housing B</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/housing/Housing Al-Hidab.html">Housing Al-Hidab</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/housing/Housing info.html">Housing Info</a></li>
-            </ul>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../../pages/users/user">
-            <i class="fa-solid fa-users menu-icon"></i>
-            <span class="menu-title">Users</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../../pages/deanship/deanship.html">
-            <i class="fa-solid fa-user-tie menu-icon"></i>
-            <span class="menu-title">Deanship</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../../pages/finance/finance.html">
-            <i class="fa-solid fa-dollar-sign menu-icon"></i>
-            <span class="menu-title">Finance</span>
-          </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="../../pages/profile/profile.html">
-              <i class="fa-solid fa-address-card"></i>
-              <span class="menu-title">Profile</span>
-            </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../../index.html">
-                <i class="fa-solid fa-arrow-right-from-bracket"></i>
-                <span class="menu-title1">Logout</span>
-              </a>
-              </li>
-        
-        
-       
-      </ul>
-    </div>
-    </nav>
-    <!-- partial -->
-    <div class="container-fluid page-body-wrapper">
-      <!-- partial:./partials/_navbar.html -->
-      <nav class="navbar1 col-lg-12 col-12 px-0 py-0 py-lg-4 d-flex flex-row"></nav>
+    
       <!-- partial -->
       <div class="main-panel">
         <div class="content-wrapper">
@@ -226,22 +147,6 @@
   </div>
   <!-- container-scroller -->
 
-  <!-- base:js -->
-  <script src="vendors/js/vendor.bundle.base.js"></script>
-  <!-- endinject -->
-  <!-- Plugin js for this page-->
-  <script src="vendors/chart.js/Chart.min.js"></script>
-  <!-- End plugin js for this page-->
-  <!-- inject:js -->
-  <script src="js/off-canvas.js"></script>
-  <script src="js/hoverable-collapse.js"></script>
-  <script src="js/template.js"></script>
-  <!-- endinject -->
-  <!-- plugin js for this page -->
-  <!-- End plugin js for this page -->
-  <!-- Custom js for this page-->
-  <script src="js/dashboard.js"></script>
-  <!-- End custom js for this page-->
-</body>
+  
 
-</html>
+@endsection

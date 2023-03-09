@@ -31,7 +31,7 @@ Mohammad
                         <div class="card-body">
                             <h5 class="card-title">Current tenants</h5>
                             <p class="card-text">1,543 students</p>
-                            <a href="#" class="btn btn-primary">View more</a>
+                            <a href="{{route('housingInfo.index')}}" class="btn btn-primary">View more</a>
                         </div>
                     </div>
                 </div>
@@ -45,7 +45,7 @@ Mohammad
                       <div class="card-body">
                           <h5 class="card-title">Total Dorms</h5>
                           <p class="card-text">5 dorms</p>
-                          <a href="#" class="btn btn-primary">View more</a>
+                          <a href="{{route('housingInfo.index')}}" class="btn btn-primary">View more</a>
                       </div>
                   </div>
               </div>
@@ -62,7 +62,7 @@ Mohammad
                     <div class="card-body">
                         <h5 class="card-title">Dorms Supervisors</h5>
                         <p class="card-text">25 supervisors</p>
-                        <a href="#" class="btn btn-primary">View more</a>
+                        <a href="{{route('housingInfo.index')}}" class="btn btn-primary">View more</a>
                     </div>
                 </div>
             </div>
@@ -76,7 +76,7 @@ Mohammad
                   <div class="card-body">
                       <h5 class="card-title">Occupied rooms</h5>
                       <p class="card-text">760 rooms in use</p>
-                      <a href="#" class="btn btn-primary">View more</a>
+                      <a href="{{route('housingInfo.index')}}" class="btn btn-primary">View more</a>
                   </div>
               </div>
           </div>

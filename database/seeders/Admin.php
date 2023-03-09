@@ -19,8 +19,13 @@ class Admin extends Seeder
             'name' => 'Admin',
             'email'=>'admin@gmail.com',
             'email_verified_at'=>now(),
+            'phone'=>'0798848899',
+            'User_image'=>'profile_pic.png',
             'password'=> bcrypt('12345678'),
-            'is_admin'=>1,
+            'role'=>'superadmin',
+            'deleted_at'=>null,
+            'created_at'=>now(),
+            'updated_at'=>now()
         ]);
     }
 }
