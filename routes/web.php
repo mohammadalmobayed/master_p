@@ -5,7 +5,9 @@ use App\Http\Controllers\HousingAController;
 use App\Http\Controllers\HousingBController;
 use App\Http\Controllers\HousingHidabController;
 use App\Http\Controllers\Finance;
+use App\Http\Controllers\HousingInfoController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -25,6 +27,9 @@ Route::get('Deanship', function () {
 Route::get('Finance', function () {
     return view('pages.finance.finance');
 });
+Route::get('user', function () {
+    return view('pages.users.user');
+});
 Route::get('Housing', function () {
     return view('pages.housing.Housing Al-Hidab');
 });
@@ -37,6 +42,7 @@ Route::get('housingB', [HousingBController::class, 'index'])->name('housingB.ind
 Route::get('housingHidab', [HousingHidabController::class, 'index'])->name('housingHidab.index');
 Route::get('housingInfo', [HousingInfoController::class, 'index'])->name('housingInfo.index');
 Route::get('finance', [Finance::class, 'index'])->name('finance.index');
+Route::get('users', [UserController::class, 'index'])->name('user.index');
 
 // Route::get('/', function () {
 //     return view('welcome');

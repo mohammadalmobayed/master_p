@@ -50,7 +50,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../../pages/users/user.html">
+          <a class="nav-link" href="../../pages/users/user">
             <i class="fa-solid fa-users menu-icon"></i>
             <span class="menu-title">Users</span>
           </a>

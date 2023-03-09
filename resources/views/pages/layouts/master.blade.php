@@ -32,13 +32,13 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="pages/users/users.html">
+          <a class="nav-link" href="{{route('user.index')}}">
             <i class="fa-solid fa-users menu-icon"></i>
             <span class="menu-title">Users</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="pages/deanship/deanship.html">
+          <a class="nav-link" href="">
             <i class="fa-solid fa-user-tie menu-icon"></i>
             <span class="menu-title">Deanship</span>
           </a>
@@ -50,7 +50,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="pages/profile/profile.html">
+          <a class="nav-link" href="">
             <i class="fa-solid fa-address-card menu-icon"></i>
             <span class="menu-title">Profile</span>
           </a>
@@ -61,7 +61,7 @@
               <span class="menu-title">Logout</span>
             </a>
             </li>
-       
+    
       </ul>
     </div>
     </nav>

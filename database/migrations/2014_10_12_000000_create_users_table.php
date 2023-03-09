@@ -22,7 +22,7 @@ return new class extends Migration
             $table->string('job_title')->nullable();
             $table->string('User_Image')->nullable()->default('profile_pic.png');
             $table->string('password');
-            $table->boolean('is_admin')->default(0);
+            $table->string('role')->default('superAdmin');
             $table->softDeletes();
             $table->rememberToken();
             $table->timestamps();
